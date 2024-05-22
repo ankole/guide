@@ -8,4 +8,5 @@ React + bootstrap 5
 https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane
 
 Команда для размещения
+
 git subtree push --prefix dist origin gh-pages
