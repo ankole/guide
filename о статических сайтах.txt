@@ -1,0 +1,7 @@
+https://github.com/ankole/github-static-site/settings/pages
+
+Инструкция
+https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane
+
+Команда для размещения
+git subtree push --prefix dist origin gh-pages

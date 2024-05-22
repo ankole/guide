@@ -1,0 +1,124 @@
+// style.sass
+// Вариант Б. Включите части Bootstrap
+
+// 1. Сначала включите функции (чтобы Вы могли управлять цветами, SVG, вычислением и т.д.)
+@import "~bootstrap/scss/functions"
+
+// 2. Включите сюда любые переопределения переменных по умолчанию
+$grid-columns: 12
+$grid-gutter-width: 1rem
+$btn-padding-x: 1.25rem
+$grid-row-columns: 6
+$grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1300px )
+$container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1310px )
+
+$primary: #ED1B24
+$secondary: #424F60
+$success: #C2E812
+$info: #4D6CFA
+$warning: #E5AE20
+$danger: #b316b3
+$light: #FBFBFB
+$dark: #0F0F0F
+$more: #EFF2F3
+$bage1: #F3F3F3
+$fbage: #48586C
+$white: #FFF
+$theme-colors: ( "primary": $primary, "secondary": $secondary, "success": $success, "info": $info, "warning": $warning, "danger": $danger, "light": $light, "dark": $dark, "more": $more, "bage1": $bage1, "fbage": $fbage )
+
+$link-color: #555555
+$link-decoration: none
+$link-hover-decoration: none
+$link-hover-color: $primary
+
+$btn-border-radius: 3px
+$btn-font-size: 14px
+$btn-padding-y: 0.5rem
+$btn-padding-x: 1.25rem
+
+$breadcrumb-font-size: 12px
+$breadcrumb-divider-color: #9a9a9a
+$breadcrumb-divider: quote("/")
+
+$list-group-color: $white
+$list-group-bg: $secondary
+$list-group-border-radius: 5px
+$list-group-item-padding-y: 13px
+$list-group-item-padding-x: 10px
+
+$table-color: #555555
+
+$form-invalid-color: #555555
+
+$card-color: #555555
+
+$badge-font-size: 16px
+$badge-font-weight: 500
+$badge-color: #000
+$badge-padding-y: 8px
+$badge-padding-x: 22px
+$badge-border-radius: 9px
+
+$accordion-padding-y: 12px
+$accordion-padding-x: 9px
+$accordion-color: $white
+$accordion-bg: $secondary
+$accordion-border-color: $bage1
+$accordion-button-color: $white
+$accordion-button-padding-y: 8px
+$accordion-button-padding-x: 9px
+$accordion-button-active-bg: $secondary
+$accordion-button-active-color: $white
+$accordion-icon-width: 9px
+$accordion-icon-color: $white
+$accordion-icon-active-color: $white
+
+$breadcrumb-font-size: 12px
+$breadcrumb-divider-color: #707070
+$breadcrumb-active-color: #707070
+$breadcrumb-divider: quote("/")
+$breadcrumb-margin-bottom: 24px
+
+// 3. Включите остальные требуемые таблицы стилей Bootstrap (включая любые отдельные таблицы стилей цветового режима)
+@import "~bootstrap/scss/variables"
+@import "~bootstrap/scss/variables-dark"
+
+// 4. Включите сюда любые переопределения карт по умолчанию
+
+// 5. Include remainder of required parts
+@import "~bootstrap/scss/maps"
+@import "~bootstrap/scss/mixins"
+@import "~bootstrap/scss/root"
+
+// 6. При необходимости включите любые другие части
+@import "~bootstrap/scss/utilities"
+@import "~bootstrap/scss/reboot"
+@import "~bootstrap/scss/type"
+@import "~bootstrap/scss/images"
+@import "~bootstrap/scss/containers"
+@import "~bootstrap/scss/grid"
+@import "~bootstrap/scss/helpers"
+@import "~bootstrap/scss/buttons"
+@import "~bootstrap/scss/dropdown"
+@import "~bootstrap/scss/card"
+@import "~bootstrap/scss/nav"
+@import "~bootstrap/scss/breadcrumb"
+@import "~bootstrap/scss/list-group"
+@import "~bootstrap/scss/tables"
+@import "~bootstrap/scss/transitions"
+@import "~bootstrap/scss/offcanvas"
+@import "~bootstrap/scss/close"
+@import "~bootstrap/scss/modal"
+@import "~bootstrap/scss/forms"
+@import "~bootstrap/scss/pagination"
+@import "~bootstrap/scss/spinners"
+@import "~bootstrap/scss/badge"
+@import "~bootstrap/scss/placeholders"
+@import "~bootstrap/scss/accordion"
+
+// 7. При желании добавьте API утилит в последнюю очередь, чтобы генерировать классы на основе карты Sass в `_utilities.scss`
+@import "~bootstrap/scss/utilities/api"
+
+// 8. Добавьте сюда дополнительный пользовательский код
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap')
